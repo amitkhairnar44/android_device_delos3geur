@@ -2,7 +2,7 @@ sudo: required
 
 language: java
 
-install: travis_wait 60 pip install scipy
+install: travis_wait 60 pip install --upgrade pip
 
 before_script:
 - sudo apt-get install -y git-core gnupg flex bison gperf build-essential 
