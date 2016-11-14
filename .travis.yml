@@ -2,7 +2,7 @@ sudo: required
 
 language: java
 
-install: travis_wait 60 pip install -U pip
+install: travis_wait 60 install make
 
 before_script:
 - sudo apt-get install -y git-core gnupg flex bison gperf build-essential 
